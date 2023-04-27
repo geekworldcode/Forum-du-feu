@@ -1,0 +1,201 @@
+/* Style de base */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #FDFDFD;
+	color: #333;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Showcard Gothic", sans-serif;
+    color: rgb(242, 4, 4);
+    -webkit-text-stroke: 0.5px #000000;
+}
+
+a {
+	color: #0066CC;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Style de l'en-tête */
+
+header {
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 48px;
+	margin: 0;
+}
+
+/* Style de la barre de navigation */
+
+nav {
+	background-color: #EEE;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	padding: 5px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #FFF;
+}
+
+/* Style du contenu principal */
+
+main {
+	margin: 20px;
+}
+
+section {
+	background-color: #FFF;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+section h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #0066CC;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0055A5;
+}
+
+
+button a {
+	color: white;
+}
+
+/* Style du pied de page */
+
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.mon-compte {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .mon-compte a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Style pour le formulaire d'inscription */
+
+form {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  input {
+	padding: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #ccc;
+  }
+  
+  button {
+	background-color: #1060d8;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #438cfa;
+  }
+  
+  /* Style pour le lien vers la page de connexion */
+  
+  a {
+	color: #0267e3;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  /* Style pour la page d'inscription */
+
+body.register {
+	background-image: none;
+  }
+
+.alert {
+	font-size: 18px;
+  }
+
+.validation {
+	font-weight: bold;
+}
